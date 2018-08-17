@@ -4,3 +4,16 @@ var app = new Vue({
       message: 'Hello Vue!'
     }
   })
+
+var test = new Vue({
+  el: '#projects',
+  data: [
+    {
+      title: "DataSpace"
+    },
+    {
+      title: ""
+    }
+  ]
+})
+
