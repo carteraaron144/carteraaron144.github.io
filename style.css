@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+    margin: 0em;
+}
+
 h1, h2, h3, h4, h5, p, a, li, td, th {
     font-family: "Roboto", sans-serif;
+}
+h1 {
+    margin-top: 0;
 }
 
 .grid {
@@ -10,11 +17,18 @@ h1, h2, h3, h4, h5, p, a, li, td, th {
 
 #mainNav {
     text-align: center;
+    background: #6200ee;
 }
 #mainNav a {
     padding: 1em 2em;
     text-decoration: none;
     display: inline-block;
+    color: #fff;
+    background: transparent;
+}
+#mainNav a:hover {
+    background: #4200ce;
+    box-shadow: 0px 0px 2px 4px rgba(10, 10, 10, 0.041) inset;
 }
 
 #aboutPanel {
