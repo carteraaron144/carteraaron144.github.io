@@ -15,11 +15,42 @@
             <h1>Hobbies</h1>
         </section>
 
+        <style>
+            .gear-slot {
+                display: block;
+                height: 60px;
+                width: 300px;
+                margin: .4em;
+                border-radius: 4px;
+                padding: .4em;
+                background: rgba(0,0,0,0.5);
+            }
+            .gear-slot img {
+                display: inline-block;
+            }
+            .gear-info {
+                color: #fff;
+            }
+            .gear-info p {
+                margin-top: 0px;
+            }
+            .item-icon {
+                float: left;
+                margin-right: 1ex;
+            }
+        </style>
+
         <div id="character">
-            <div v-for="item in items">
-                <img :src="item.icon">
+            <div v-for="item in items" class="gear-slot">
+                <img class="item-icon" :src="item.icon">
+                <div class="gear-info">
+                    <p>
+                        {{ item.name }}
+                    </p>
+                </div>
             </div>
         </div>
+
         
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script type="text/javascript" src="hobbies.js"></script>
