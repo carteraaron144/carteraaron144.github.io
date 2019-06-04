@@ -1,6 +1,7 @@
 // Credentials for accessing the API
 const CLIENT_ID = "vhJK3DiMOpY2XgX8KFHycA";
 const API_KEY = "7KXGX_NFduAFWVvskI4xJO9gj64tNMAG_3pEMHVIRDzvG826fMzw8I5yNKjoYKKUECCBhERkTiilWMgq3mYUrpavQ4qfnUU9trzXKriWNtR7zviHwz4xpcJA35j2XHYx";
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
 // Information for building a request
 const HOST = "api.yelp.com";
@@ -28,7 +29,7 @@ function requestBars(queryString) {
     }
   };
 
-  var path = "https://" + HOST + SEARCH_PATH + queryString;
+  var path = proxyurl + "https://" + HOST + SEARCH_PATH + queryString;
 
   console.log(path);
 
