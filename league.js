@@ -29,7 +29,7 @@ function requestBars(queryString) {
     }
   };
 
-  var path = proxyurl + "https://" + HOST + SEARCH_PATH + queryString;
+  var path = proxyurl + HOST + SEARCH_PATH + queryString;
 
   console.log(path);
 
