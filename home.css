@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  margin: 0px;
+  background: #eee;
+}
+h1, h2, h3, h4, h5, p, a, li {
+  font-family: "Open Sans", sans-serif;
+}
+#banner h1 {
+  size: 4em;
+  color: #92c23e;
+  margin: 0px;
+  padding: .6rem 1rem 1rem 1rem;
+}
+#action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 2em;
+}
+#control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em 2em 0em 2em;
+}
+#control h1, #control p {
+  display: block;
+}
+#control h1 {
+  font-size: 3.8em;
+  margin-bottom: 1rem;
+}
+#control h2 {
+  font-size: 1.5em;
+  color: #888;
+}
+#control .button {
+  color: #fff;
+  padding: 1em;
+  font-size: 2em;
+  background: #92c23e;
+  border-radius: 8px;
+}
+#control .button:focus {
+  border: 0px solid #fff;
+  border-radius: 10px;
+}
+#control .button:hover {
+  transition: box-shadow .2s;
+  box-shadow: 0px 8px 18px -9px rgba(0,0,0,0.3);
+}
+#map {
+  min-height: 30em;
+}
+h2 {
+  size: 2.4em;
+  color: #333;
+}
+p {
+  color: #333;
+}
+#banner {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+#app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  padding: 2em;
+}
+.card {
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: .6em;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,.1);
+  min-height: 8em;
+  background: #fff;
+}
+.card:hover {
+  box-shadow: 0px 8px 18px -9px rgba(0,0,0,0.3);
+  transition: box-shadow .2s;
+}
