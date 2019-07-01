@@ -1,0 +1,30 @@
+
+.hand {
+  position: absolute;
+  transition: transform 7s;
+}
+.hand svg path {
+  fill: #333;
+}
+#hand1 {
+  transform: rotate(0deg);
+}
+#clockWall {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr 2fr;
+}
+.clock {
+  border: 2px solid #333;
+  width: 100px;
+  height: 100px;
+  border-radius: 500px;
+}
+.digit {
+  display: grid;
+  grid-template-columns: repeat(4,103px);
+  grid-template-rows: repeat(6,103px);
+  border: 1px solid rgba(0,0,0,0,4);
+}
+#digit1 {
+  grid-column: 0/1;
+}
