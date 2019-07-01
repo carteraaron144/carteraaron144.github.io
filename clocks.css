@@ -12,6 +12,7 @@
 #clockWall {
   display: grid;
   grid-template-columns: 4fr 4fr 4fr 4fr 2fr;
+  margin: 0px auto;
 }
 .clock {
   border: 2px solid #333;
