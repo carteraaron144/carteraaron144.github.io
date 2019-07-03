@@ -32,12 +32,12 @@ class Clock {
     return '<div class="clock" id="' + this.name + '">\
       <div class="hand hand1" id="hand1">\
       <svg height="100" width="100">\
-          <path d="m45 0 L45 50 L55 50 L55 0 Z" />\
+          <path d="m45 2 L45 52 L55 52 L55 2 Z" />\
       </svg>\
       </div>\
       <div class="hand hand2" id="hand2">\
       <svg height="100" width="100">\
-          <path d="m45 0 L45 50 L55 50 L55 0 Z" />\
+          <path d="m45 2 L45 52 L55 52 L55 2 Z" />\
       </svg>\
       </div>\
     </div>'
@@ -81,7 +81,7 @@ for(var i = 0; i < 24; i++) {
   clocks.push(new Clock("clock" + i));
   clockwall += clocks[i].populate();
 }
-//console.log(clockwall);
+console.log(clockwall);
 
 function changeTime() {
   

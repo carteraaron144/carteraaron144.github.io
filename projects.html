@@ -20,7 +20,9 @@
                 <h2>
                 {{ project.title }}
                 </h2>
-                <img alt="Image" class="projectImage">
+                <a :href="project.link">
+                    <img alt="Image" class="projectImage">
+                </a>
                 <p class="projectDescription">
                     {{project.description}}
                 </p>
