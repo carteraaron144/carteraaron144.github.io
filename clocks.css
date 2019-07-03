@@ -7,12 +7,10 @@
 .hand svg path {
   fill: #333;
 }
-#hand1 {
-  transform: rotate(0deg);
-}
 #clockWall {
   display: grid;
-  grid-template-columns: 4fr 4fr 4fr 4fr 2fr;
+  grid-template-columns: 412px 412px 206px 412px 412px; 
+  grid-template-rows: 1fr;
   margin: 0px auto;
 }
 .clock {
@@ -29,6 +27,19 @@
   grid-template-rows: repeat(6,103px);
   border: 1px solid rgba(0,0,0,0,4);
 }
+.colon {
+  display: grid;
+  grid-template-columns: 103px 103px;
+}
 #digit1 {
-  grid-column: 0/1;
+  grid-column: 1/2;
+}
+#digit2 {
+  grid-column: 2/3;
+}
+#digit3 {
+  grid-column: 4/5;
+}
+#digit4 {
+  grid-column: 5/6;
 }

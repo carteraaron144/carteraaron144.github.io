@@ -81,7 +81,7 @@ for(var i = 0; i < 24; i++) {
   clocks.push(new Clock("clock" + i));
   clockwall += clocks[i].populate();
 }
-console.log(clockwall);
+//console.log(clockwall);
 
 function changeTime() {
   
@@ -168,18 +168,34 @@ var zero = [
   [0,1],[1,3],[1,3],[0,3],
 ]
 var colon = [
-  [1,2],[1,3],
-  [0,2],[1,2],
-  [2,0],[0,2],
-  [0,2],[0,2],
-  [0,2],[0,1],
-  [0,1],[1,3]
+  [0,0],[0,0],
+  [1,2],[3,2],
+  [1,0],[0,3],
+  [1,2],[3,2],
+  [1,0],[0,3],
+  [0,0],[0,0]
 ]
 var nums = [zero, one, two, three, four, five, six, seven, eight, nine];
 
+function setColon() {
+  for(var i = 0; i < 12; i++) {
+    $("#colon #colonclock" + i + " .hand1").css("transform", "rotate(" + (colon[i][0] * 90) + "deg)");
+    $("#colon #colonclock" + i + " .hand2").css("transform", "rotate(" + (colon[i][1] * 90) + "deg)");
+  }
+}
 
 
+now = new Date();
+H = Math.floor(now.getHours()/10);
+h = now.getHours() % 10;
+M = Math.floor(now.getMinutes()/10);
+m = now.getMinutes() % 10;
 
+digits[0].setClocks(nums[H]);
+digits[1].setClocks(nums[h]);
+setColon();
+digits[2].setClocks(nums[M]);
+digits[3].setClocks(nums[m]);
 
 window.setInterval(function(){
   now = new Date();
