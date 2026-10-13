@@ -1,0 +1,507 @@
+{
+  "categories": [
+    {
+      "id": "weapons",
+      "name": "Weapons",
+      "subcategories": [
+        {
+          "id": "sword",
+          "name": "Sword",
+          "description": "A bladed weapon with a single or double edge, ranging from short swords to long blades.",
+          "parts": [
+            "blade",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang"
+          ]
+        },
+        {
+          "id": "spear",
+          "name": "Spear",
+          "description": "A polearm with a pointed tip, used for thrusting and throwing.",
+          "parts": [
+            "head",
+            "shaft",
+            "socket",
+            "ferrule",
+            "butt-spike"
+          ]
+        },
+        {
+          "id": "bow",
+          "name": "Bow",
+          "description": "A ranged weapon that launches arrows.",
+          "parts": [
+            "stave",
+            "string",
+            "nocking-points",
+            "grip",
+            "limbs"
+          ]
+        },
+        {
+          "id": "arrow",
+          "name": "Arrow",
+          "description": "Projectile fired from a bow, with a pointed tip and fletched tail.",
+          "parts": [
+            "point",
+            "shaft",
+            "fletching",
+            "nock"
+          ]
+        },
+        {
+          "id": "axe",
+          "name": "Axe",
+          "description": "A chopping tool and weapon with a heavy blade mounted on a handle.",
+          "parts": [
+            "blade",
+            "poll",
+            "eye",
+            "haft",
+            "grip"
+          ]
+        },
+        {
+          "id": "mace",
+          "name": "Mace",
+          "description": "A blunt weapon with a heavy spiked or studded head on a handle.",
+          "parts": [
+            "head",
+            "flanges",
+            "spikes",
+            "handle",
+            "grip",
+            "pommel"
+          ]
+        },
+        {
+          "id": "lance",
+          "name": "Lance",
+          "description": "A long polearm used primarily by mounted cavalry for charging.",
+          "parts": [
+            "head",
+            "shaft",
+            "grip-section",
+            "butt",
+            "reinforcing-bands"
+          ]
+        },
+        {
+          "id": "dagger",
+          "name": "Dagger",
+          "description": "A short blade weapon, easily concealable and useful for close combat.",
+          "parts": [
+            "blade",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang"
+          ]
+        },
+        {
+          "id": "pike",
+          "name": "Pike",
+          "description": "A longer version of the spear with a small pointed head.",
+          "parts": [
+            "head",
+            "shaft",
+            "socket",
+            "reinforcing-bands",
+            "butt-cap"
+          ]
+        },
+        {
+          "id": "crossbow",
+          "name": "Crossbow",
+          "description": "A mechanical bow that shoots bolts using a trigger mechanism.",
+          "parts": [
+            "prod",
+            "stock",
+            "trigger-mechanism",
+            "string",
+            "cocking-lever",
+            "bolt-groove",
+            "limbs"
+          ]
+        },
+        {
+          "id": "halberd",
+          "name": "Halberd",
+          "description": "A polearm combining an axe blade, pike point, and hook or spike.",
+          "parts": [
+            "axe-blade",
+            "spike-top",
+            "hook",
+            "shaft",
+            "reinforcing-bands",
+            "butt"
+          ]
+        },
+        {
+          "id": "flail",
+          "name": "Flail",
+          "description": "A handle with a chain or leather strap attached to a weighted or spiked ball.",
+          "parts": [
+            "handle",
+            "chain",
+            "weight-head",
+            "spikes",
+            "swivel"
+          ]
+        },
+        {
+          "id": "hammer",
+          "name": "Hammer",
+          "description": "A heavy striking weapon with a broad head for crushing.",
+          "parts": [
+            "head",
+            "poll",
+            "eye",
+            "handle",
+            "grip",
+            "pommel"
+          ]
+        },
+        {
+          "id": "club",
+          "name": "Club",
+          "description": "A simple, heavy wooden weapon.",
+          "parts": [
+            "shaft",
+            "striking-head",
+            "grip"
+          ]
+        },
+        {
+          "id": "scimitar",
+          "name": "Scimitar",
+          "description": "A curved, single-edged sword originating from the Middle East and Asia.",
+          "parts": [
+            "curved-blade",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang"
+          ]
+        },
+        {
+          "id": "katana",
+          "name": "Katana",
+          "description": "A Japanese curved sword, traditionally used by samurai.",
+          "parts": [
+            "curved-blade",
+            "hand-guard",
+            "hilt",
+            "pommel",
+            "grip-wrapping",
+            "tang"
+          ]
+        },
+        {
+          "id": "rapier",
+          "name": "Rapier",
+          "description": "A thin, flexible blade designed for thrusting.",
+          "parts": [
+            "thin-blade",
+            "cross-hilt",
+            "grip",
+            "pommel",
+            "tang"
+          ]
+        },
+        {
+          "id": "broadsword",
+          "name": "Broadsword",
+          "description": "A wide-bladed sword for cutting and thrusting.",
+          "parts": [
+            "wide-blade",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang"
+          ]
+        },
+        {
+          "id": "fauchard",
+          "name": "Fauchard",
+          "description": "A medieval polearm with a curved blade, used by peasants and soldiers.",
+          "parts": [
+            "curved-blade",
+            "shaft",
+            "socket",
+            "hook",
+            "butt"
+          ]
+        },
+        {
+          "id": "guisarme",
+          "name": "Guisarme",
+          "description": "A polearm featuring hooks, blades, and points for versatile combat.",
+          "parts": [
+            "hook-blade",
+            "pointed-tip",
+            "shaft",
+            "socket",
+            "reinforcing-bands"
+          ]
+        },
+        {
+          "id": "glaive",
+          "name": "Glaive",
+          "description": "A polearm with a large, single-edged blade mounted on a shaft.",
+          "parts": [
+            "large-blade",
+            "shaft",
+            "socket",
+            "spike-extension",
+            "butt"
+          ]
+        },
+        {
+          "id": "voulge",
+          "name": "Voulge",
+          "description": "A polearm with an axe-like blade attached to a long handle.",
+          "parts": [
+            "axe-blade",
+            "shaft",
+            "socket",
+            "reinforcing-bands",
+            "butt"
+          ]
+        },
+        {
+          "id": "morgenstern",
+          "name": "Morgenstern",
+          "description": "A German spiked ball weapon on a handle (morning star).",
+          "parts": [
+            "spiked-ball",
+            "handle",
+            "grip",
+            "pommel"
+          ]
+        },
+        {
+          "id": "trident",
+          "name": "Trident",
+          "description": "A three-pronged spear-like weapon, effective against multiple opponents.",
+          "parts": [
+            "three-prongs",
+            "shaft",
+            "socket",
+            "crossbar",
+            "butt"
+          ]
+        },
+        {
+          "id": "jian",
+          "name": "Jian",
+          "description": "A Chinese straight double-edged sword with a long history.",
+          "parts": [
+            "straight-blade",
+            "double-edge",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang"
+          ]
+        },
+        {
+          "id": "naginata",
+          "name": "Naginata",
+          "description": "A Japanese polearm with a curved blade at the end.",
+          "parts": [
+            "curved-blade",
+            "shaft",
+            "socket",
+            "blade-mounting",
+            "butt"
+          ]
+        },
+        {
+          "id": "war-pick",
+          "name": "War Pick",
+          "description": "A pointed hammer designed to pierce and crush armor.",
+          "parts": [
+            "pointed-pick",
+            "hammer-head",
+            "eye",
+            "handle",
+            "grip",
+            "pommel"
+          ]
+        },
+        {
+          "id": "billhook",
+          "name": "Billhook",
+          "description": "A curved hooked polearm used for cutting and pulling.",
+          "parts": [
+            "curved-hook",
+            "cutting-blade",
+            "shaft",
+            "socket",
+            "butt"
+          ]
+        },
+        {
+          "id": "staff",
+          "name": "Staff",
+          "description": "A long pole used to channel magic or as a melee weapon.",
+          "parts": [
+            "shaft",
+            "grip-section",
+            "tip-ornament",
+            "decorative-elements"
+          ]
+        },
+        {
+          "id": "wand",
+          "name": "Wand",
+          "description": "A short magical implement to direct spells and energy.",
+          "parts": [
+            "core",
+            "shaft",
+            "tip",
+            "grip-section"
+          ]
+        },
+        {
+          "id": "rune-blade",
+          "name": "Rune Blade",
+          "description": "A sword inscribed with magical runes granting special powers.",
+          "parts": [
+            "blade",
+            "rune-inscriptions",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang",
+            "magical-focus"
+          ]
+        },
+        {
+          "id": "scepter",
+          "name": "Scepter",
+          "description": "A magical staff or ornamental weapon channeling supernatural force.",
+          "parts": [
+            "shaft",
+            "ornamented-head",
+            "grip-section",
+            "magical-focus",
+            "base-ornament"
+          ]
+        },
+        {
+          "id": "grimoire",
+          "name": "Grimoire",
+          "description": "A magical tome serving as both weapon and spell source.",
+          "parts": [
+            "cover",
+            "spine",
+            "pages",
+            "binding",
+            "arcane-symbols",
+            "magical-seals"
+          ]
+        },
+        {
+          "id": "blade",
+          "name": "Blade",
+          "description": "A dark or corrupted magical sword with unpredictable effects.",
+          "parts": [
+            "dark-blade",
+            "corrupted-aura",
+            "crossguard",
+            "hilt",
+            "pommel",
+            "grip",
+            "tang"
+          ]
+        },
+        {
+          "id": "greatsword",
+          "name": "Greatsword",
+          "description": "A large two-handed fantasy sword often wielded by heroes.",
+          "parts": [
+            "large-blade",
+            "crossguard",
+            "two-handed-grip",
+            "pommel",
+            "fuller",
+            "tang"
+          ]
+        },
+        {
+          "id": "talisman",
+          "name": "Talisman",
+          "description": "A magical charm or object providing protection and power.",
+          "parts": [
+            "charm-object",
+            "symbolic-markings",
+            "protective-aura",
+            "attachment-cord"
+          ]
+        },
+        {
+          "id": "amulet",
+          "name": "Amulet",
+          "description": "An enchanted ornament granting the wearer magical abilities.",
+          "parts": [
+            "ornamental-pendant",
+            "enchanted-stone",
+            "binding-chain",
+            "magical-inscription"
+          ]
+        },
+        {
+          "id": "orb",
+          "name": "Orb",
+          "description": "A magical sphere used to cast powerful spells or summon forces.",
+          "parts": [
+            "sphere-core",
+            "magical-energy",
+            "containment-shell",
+            "focus-point"
+          ]
+        },
+        {
+          "id": "tome",
+          "name": "Tome",
+          "description": "An ancient magical book containing forbidden or powerful knowledge.",
+          "parts": [
+            "cover",
+            "spine",
+            "pages",
+            "binding",
+            "magical-formulae",
+            "illustration-plates"
+          ]
+        },
+        {
+          "id": "crown",
+          "name": "Crown",
+          "description": "A magical regal artifact that commands power and authority.",
+          "parts": [
+            "circlet",
+            "ornamental-points",
+            "jewel-setting",
+            "magical-focus",
+            "band-interior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "armor",
+      "name": "Armor",
+      "subcategories": []
+    }
+  ]
+}
