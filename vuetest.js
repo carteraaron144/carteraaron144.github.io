@@ -9,10 +9,10 @@ var test = new Vue({
         link: "carteraaron144.github.io/clocks"
       },
       {
-        title: "Project B",
+        title: "Item Describer",
         imageUrl: "",
-        description: "This one took a relatively small portion of my life.",
-        link: "carteraaron144.github.io"
+        description: "Generates descriptions of random fantasy items and weapons, part by part.",
+        link: "/item-describer/"
       },
       {
         title: "Project C",

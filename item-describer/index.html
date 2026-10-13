@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Item Describer :: Aaron Carter</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" type="text/css" href="describer.css">
+</head>
+<body>
+  <nav id="mainNav">
+    <a href="/">HOME</a>
+    <a href="/projects">PROJECTS</a>
+    <a href="/hobbies">HOBBIES</a>
+    <a href="/design">DESIGN</a>
+  </nav>
+
+  <div class="describer">
+  <main class="panel">
+    <h1>Fantasy Item Describer</h1>
+
+    <div class="actions">
+      <button id="random-item" type="button" disabled class="primary">Random item</button>
+      <button id="random-weapons" type="button" disabled class="secondary">Random weapons (3)</button>
+    </div>
+
+    <div class="columns">
+      <section class="column">
+        <label for="category">Item type</label>
+        <select id="category" disabled>
+          <option>Loading…</option>
+        </select>
+
+        <label for="subcategory">Subtype</label>
+        <select id="subcategory" disabled>
+          <option>Choose an item type first</option>
+        </select>
+
+        <p id="status" class="status"></p>
+      </section>
+
+      <section class="column details" aria-live="polite">
+        <p id="placeholder" class="muted">Choose an item to see its description.</p>
+
+        <div id="item-details" hidden>
+          <h2 id="item-name"></h2>
+          <p id="item-description"></p>
+
+          <div id="parts-section">
+            <div class="parts-header">
+              <h3 id="parts-label">Parts</h3>
+              <button id="clear-parts" type="button" class="link-button" hidden>Clear</button>
+            </div>
+            <div id="parts" class="parts" role="group" aria-labelledby="parts-label"></div>
+            <p id="selected-parts" class="muted"></p>
+
+            <div class="randomizer">
+              <label for="random-count">Parts to describe</label>
+              <div class="randomizer-row">
+                <input id="random-count" type="number" min="1" value="3" inputmode="numeric">
+                <button id="randomize" type="button" class="primary">Randomize</button>
+              </div>
+              <p class="muted hint">Highlighted parts are always included; the rest are picked at random.</p>
+              <ul id="results" class="results"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="summary-section" class="summary" hidden>
+      <h3>Full description</h3>
+      <p id="summary-intro"></p>
+      <ul id="summary"></ul>
+    </section>
+
+    <section id="generated" class="generated" hidden aria-live="polite">
+      <h3 id="generated-label"></h3>
+      <div id="gen-cards" class="gen-cards"></div>
+    </section>
+  </main>
+  </div>
+  <script src="describer.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
